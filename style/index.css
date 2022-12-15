@@ -1,0 +1,117 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #202124;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.navbar {
+    height: 40%;
+    margin: 20px;
+}
+
+.right-nav {
+    float: right;
+}
+
+.main {
+    text-align: center;
+}
+
+.search-bar {
+    display: grid;
+    grid-template-columns: 5% 79% 8% 8%;
+    align-items: center;
+    padding-left: 10px;
+    height: 44px;
+    width: auto;
+    max-width: 564px;
+    min-width: 350px;
+    border-radius: 30px;
+    margin: auto;
+    background-color: #202124;
+    border: 1px solid grey;
+}
+
+.ricerca {
+    background-color: #202124;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+}
+
+.accedi-button {
+    background-color: #8ab4f8;
+    color: black !important;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.remove-underline {
+    text-decoration: none;
+    color: #bdc1c6;
+    margin: 5px;
+}
+
+.cerca {
+    background-color: #303134;
+    color: #e8eaed;
+    border: none;
+    height: 36px;
+    font-size: 14px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #171717;
+    width: 100%;
+    height: 13.8%;
+}
+
+.footer-item1 {
+    color: #9aa0a6;
+    padding: 15px 30px 21px;
+    border-bottom: 1px solid #3c4043;
+    height: 12%;
+    font-size: 15px;
+}
+
+.icon-color {
+    color: #9aa0a6;
+}
+
+#carbon {
+    text-decoration: none;
+    color: #999da2;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.bottom {
+    margin-right: 35px;
+}
+
+.bottom > a {
+    color: #999da2;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.bottom > span {
+    color: #999da2;
+    margin-left: 35px;
+}
